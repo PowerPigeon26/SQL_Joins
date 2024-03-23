@@ -65,7 +65,6 @@ FROM products as p
 INNER JOIN reviews AS r ON r.ProductID = p.ProductID
 WHERE p.ProductID = 857 AND r.Rating = 1;
 
--- ------------------------------------------ Extra - May be difficult
 /* Your goal is to write a query that serves as an employee sales report.
 This query should return:
 -  the employeeID
